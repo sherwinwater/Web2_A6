@@ -11,7 +11,8 @@ showCart();
 
     <body>
         <?php
-        if ($totalprice > 0 && !isset($_SESSION['orderID'])) {
+//        if ($totalprice > 0 && !isset($_SESSION['orderID'])) {
+        if ($totalprice > 0) {
             ?>
             <h2>Hey <?= $_SESSION["user"] ?>, Your shopping cart</h2>
             <?= $out ?>

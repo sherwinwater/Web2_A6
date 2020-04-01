@@ -57,7 +57,7 @@ if (isset($_POST['quantity'])) {
                 <input type="submit" value="Add to cart" > 
             </form>
             <br>
-            <a  href="productOrange.php" class="add checkout" class="buy"> Choose Next Fruit</a><br>
+            <a  href="productOrange.php" class="add checkout buy"> Choose Next Fruit</a><br>
 
             <?php
         } else {

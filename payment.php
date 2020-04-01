@@ -35,7 +35,7 @@ include 'header.php';
 
         <?php
         } else {
-            echo "delivery.php";
+            include 'checkout.php';
         }
         ?>
 
